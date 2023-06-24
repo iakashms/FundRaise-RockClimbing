@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Fundraising Campaign</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        #gears th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        #crowdfunding {
+            text-align: center;
+        }
+
+        .qr-code {
+            display: block;
+            max-width: 200px; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the image horizontally */
+            margin-top: 20px; /* Add spacing between the paragraph and the QR code */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .about-me-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .about-me-content img {
+            max-width: 200px; /* Adjust the width as needed */
+            margin-right: 20px; /* Add spacing between the image and description */
+        }
+
+        #climbing-pictures .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        #climbing-pictures img {
+            width: calc(25% - 10px); /* Adjust the width and spacing as needed */
+            margin-bottom: 20px; /* Adjust the spacing between rows as needed */
+        }
+
+        .social-profiles {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-profiles a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333;
+            font-size: 20px;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .social-profiles a i {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .social-profiles a:hover {
+            color: #000;
+        }
+
+        .social-profiles a {
+            color: #E4405F;
+        }
+
+        #sponsorship {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* #sponsorship h2 {
+            margin-top: 0;
+        }
+
+        .sponsorship-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .sponsor {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        .sponsor img {
+            max-width: 100%;
+            height: auto;
+        } */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fundraising Campaign for Rock Climbing Gears</h1>
+    </header>
+
+    <section id="description">
+        <h2>About the Fundraising Campaign</h2>
+        <p>
+            We are raising funds to provide rock climbing gears to underprivileged climbers and educate about rock climbing for the youths in our community. With your support, we aim to make the thrilling and empowering sport of rock climbing accessible to everyone, regardless of their background or financial means.
+        </p>
+        <p>
+            By equipping these climbers with the necessary gear, we hope to inspire them, promote inclusivity, and create opportunities for personal growth and achievement. Your contribution will make a significant difference in the lives of aspiring climbers who lack the resources to pursue their passion.
+        </p>
+    </section>
+
+    <section id="gears">
+        <h2>Rock Climbing Gears Required</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Petzl Locker Screw Lock</td>
+                <td>4</td>
+                <td>&#8377; 1500</td>
+                <td><a target="_blank" href="https://www.stepinadventure.com/in/p/Petzl-Locker-Screw-Lock/75">View</a></td>
+            </tr>
+            <tr>
+                <td>Petzl Corax Seat Harness</td>
+                <td>2</td>
+                <td>&#8377; 5700</td>
+                <td><a target="_blank" href="https://www.stepinadventure.com/in/p/Petzl-Corax-Seat-Harness/2454">View</a></td>
+            </tr>
+            <tr>
+                <td>Petzl Belay Device</td>
+                <td>1</td>
+                <td>&#8377; 3100</td>
+                <td><a target="_blank" href="https://www.stepinadventure.com/in/p/PETZL-REVERSO-BELAY-DEVICE/374">View</a></td>
+            </tr>
+            <tr>
+                <td>Petzl Figure 8 Descender</td>
+                <td>1</td>
+                <td>&#8377; 1700</td>
+                <td><a target="_blank" href="https://www.stepinadventure.com/in/p/Petzl-HUIT-Figure-8-Descender/2152">View</a></td>
+            </tr>
+            <tr>
+                <td>Petzl GRIGRI Belay device</td>
+                <td>1</td>
+                <td>&#8377; 8300</td>
+                <td><a target="_blank" href="https://www.stepinadventure.com/in/p/Petzl-GRIGRI-Belay-device/2155">View</a></td>
+            </tr>
+            <tr>
+                <td>Petzl Quick Draws</td>
+                <td>12</td>
+                <td>&#8377; 2100</td>
+                <td><a target="_blank" href="https://www.stepinadventure.com/in/p/Petzl-Djinn-Axess-11cm/588">View</a></td>
+            </tr>
+            <tr>
+                <td>Petzl Sling</td>
+                <td>2</td>
+                <td>&#8377; 970</td>
+                <td><a target="_blank" href="https://www.stepinadventure.com/in/p/Petzl-Professional-Anneau-Climbing-Sewn-Sling-/3488">View</a></td>
+            </tr>
+            <tr>
+                <td>Simond Climbing Shoe</td>
+                <td>2</td>
+                <td>&#8377; 5999</td>
+                <td><a target="_blank" href="https://www.decathlon.in/p/8495164/new-arrivals/climbing-shoes-rock-grey?id=8495164&type=p">View</a></td>
+            </tr>
+            <tr>
+                <td>Simond 10 mm CLIMB ROPE - 70 Metre</td>
+                <td>1</td>
+                <td>&#8377; 10999</td>
+                <td><a target="_blank" href="https://www.decathlon.in/p/8644396/ropes-cords-and-slings/10-mm-climb-rope-klimb-70-metres?id=8644396&type=p">View</a></td>
+            </tr>
+            <!-- Add more rows if needed -->
+        </table>
+    </section>
+
+    <section id="crags">
+        <h2>Rock Climbing Crags, Bolted Routes in and around Magadi</h2>
+        <p>Crag 1 : <a target="_blank" href="https://goo.gl/maps/QqkxXsyGN3DrBts38">Kudrugal Betta (Local Name of the Hill)</a></p>
+        <p>Crag 2 : <a target="_blank" href="https://goo.gl/maps/zoNFj7p71q7fnmG88">Banyan tree, Savandurga Area</a></p>
+        <p>Crag 3 : <a target="_blank" href="https://goo.gl/maps/USkud5QixSPvz6wB6">Savandurga (Asia's Largest Monolith Hill)</a></p>
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <div class="about-me-content">
+            <div class="about-me-image">
+                <img src="./images/pic6.jpeg" alt="About Me Photo">
+            </div>
+            <div class="about-me-text">
+                <p>I'm Akash, a passionate climber and trekker who thrives on the challenges of the great outdoors. I have dedicated myself to exploring new heights and stunning landscapes, constantly seeking adventure. What truly sets me apart is my incredible accomplishment as a record holder. I hold the prestigious title for ascending Asia's largest monolith hill in an astonishing time of less than 27 minutes. My unwavering determination, physical strength, and unyielding spirit have propelled me to unparalleled success in the world of climbing. I strive to inspire others with my adventures, encouraging them to embrace their own passions and push beyond their limits. Through my achievements, I leave a lasting impact on the realm of mountains.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="crowdfunding">
+        <h2>Support Our Cause</h2>
+        <p>Any contribution, big or small, makes a difference!</p>
+        <img src="./images/QRCode-Crop.png" alt="QR Code" class="qr-code">
+        <p>UPI Id : <b>7829760681@ybl</b></p>
+    </section>
+
+    <section id="sponsorship">
+        <h2>Sponsorship</h2>
+        <div class="sponsorship-list">
+            <div class="sponsor">
+                <a href="https://www.allied-sepl.in/" target="_blank"><img src="./images/allied-logo.webp" alt="Sponsor 1 Logo"></a>
+                <p>Offerring discounted price for the gears listed above</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="climbing-pictures">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="./images/pic1.jpg" alt="Climbing Photo 1">
+            <img src="./images/pic2.JPG" alt="Climbing Photo 2">
+            <img src="./images/pic5.jpeg" alt="Climbing Photo 5">
+            <img src="./images/pic3.jpeg" alt="Climbing Photo 3">
+            <img src="./images/pic4.jpeg" alt="Climbing Photo 4">
+            <img src="./images/pic6.jpeg" alt="Climbing Photo 6">
+            <img src="./images/pic8.jpeg" alt="Climbing Photo 8">
+            <img src="./images/pic7.jpeg" alt="Climbing Photo 7">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fundraising Campaign for Rock Climbing Gears</p>
+        <div class="social-profiles">
+            <a target="_blank" href="https://www.instagram.com/your_instagram_username" rel="noopener noreferrer">
+              <i class="material-icons">camera_alt</i> Instagram
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
